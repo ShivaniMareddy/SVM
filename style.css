@@ -1,0 +1,123 @@
+/* FORCE FULL VISIBILITY */
+
+/* App background */
+.stApp {
+    background-color: #f4f8ff !important;
+}
+
+/* Sidebar */
+section[data-testid="stSidebar"] {
+    background: #1f3c88 !important;
+}
+
+section[data-testid="stSidebar"] * {
+    color: #ffffff !important;
+    font-weight: 500;
+}
+
+/* Main content text */
+.main * {
+    color: #000000 !important;
+    opacity: 1 !important;
+}
+
+/* Card container */
+.title-box {
+    background-color: #ffffff !important;
+    padding: 40px !important;
+    border-radius: 18px !important;
+    box-shadow: 0px 8px 25px rgba(0,0,0,0.15) !important;
+}
+
+.title-box h1 {
+    color: #1f3c88 !important;
+    font-weight: 800 !important;
+}
+
+.title-box p {
+    color: #222222 !important;
+    font-size: 16px !important;
+}
+
+/* Button */
+.stButton > button {
+    background-color: #00a8ff !important;
+    color: #ffffff !important;
+    font-size: 18px !important;
+    height: 55px !important;
+    border-radius: 12px !important;
+    border: none !important;
+}
+
+.stButton > button:hover {
+    background-color: #0086cc !important;
+}
+
+/* Success */
+div[data-testid="stAlert"][class*="success"] {
+    background-color: #e6fffa !important;
+    color: #065f46 !important;
+    font-weight: 600 !important;
+}
+
+/* Error */
+div[data-testid="stAlert"][class*="error"] {
+    background-color: #ffeaea !important;
+    color: #7f1d1d !important;
+    font-weight: 600 !important;
+}
+
+/* Info */
+div[data-testid="stInfo"] {
+    background-color: #e8f3ff !important;
+    color: #0b3c6f !important;
+    font-weight: 500 !important;
+}
+
+/* Footer */
+.footer {
+    color: #555555 !important;
+    text-align: center !important;
+    margin-top: 40px !important;
+}
+/* FORCE SECTIONS VISIBILITY */
+.loan-section {
+    background-color: #ffffff !important;
+    padding: 25px !important;
+    border-radius: 16px !important;
+    margin-top: 25px !important;
+    box-shadow: 0px 6px 18px rgba(0,0,0,0.08) !important;
+    color: #000000 !important;
+}
+
+.loan-section h2 {
+    color: #1f3c88 !important;
+    font-weight: 700 !important;
+}
+
+.loan-section p {
+    color: #222222 !important;
+    font-size: 16px !important;
+}
+/* FORCE BLACK TEXT FOR RESULT SECTIONS */
+
+.loan-section,
+.loan-section h2,
+.loan-section p,
+.loan-section span,
+.loan-section div {
+    color: #000000 !important;
+    opacity: 1 !important;
+}
+/* Info badges */
+.info-badge {
+    background-color: #1f3c88;
+    color: #ffffff !important;
+    padding: 8px 14px;
+    border-radius: 8px;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 600;
+    margin-right: 10px;
+    margin-top: 10px;
+}
